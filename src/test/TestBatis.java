@@ -17,6 +17,8 @@ public class TestBatis {
 
     @Test
     public void test01() throws IOException {
+        // 12345654321
+        System.out.println("12345654321");
 
         InputStream stream = Resources.getResourceAsStream("batis-config.xml");
 
